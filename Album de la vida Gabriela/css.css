@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(227, 170, 170);
+}
+.contenedor {
+    display: flex;
+    align-items: flex-start; /* o center si quieres alinear verticalmente */
+    gap: 20px; /* Espacio entre imagen y texto */
+    margin-bottom: 20px;
+    background-color: beige;
+    max-width: 900px; /* o el ancho que quieras */
+    margin: 20px auto; /* centra horizontalmente y espacio arriba y abajo */
+    padding: 20px;     /* espacio interno para que el contenido no quede pegado al borde */
+    border-radius: 10px;
+}
+
+.Pedernoso img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.TextoPedernoso {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.Pedernoso1 img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.TextoPedernoso1 {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.TextoItalia{
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+.Italia img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.TextoFurgo{
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center; 
+}
+.Furgo img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.Casita img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.TextoCasita{
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 35px; 
+}
+.videos-container {
+  display: flex;
+  justify-content: space-between; /* distribuye los videos con espacio entre ellos */
+  align-items: center;            /* alinea verticalmente */
+  max-width: 900px;               /* ancho máximo para que no se estire demasiado */
+  margin: 0 auto;                 /* centra el contenedor en la página */
+}
